@@ -1,6 +1,10 @@
 检查服务器25端口是否可用，
 mx记录如果使用泛解析，那么只有子域名mx生效
 
+```sh
+nslookup -q=mx domain.com
+```
+
 ```python
 # cfg.ini 修改：
 0.0.0.0
