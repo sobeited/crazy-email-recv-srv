@@ -1,5 +1,6 @@
 检查服务器25端口是否可用，
 mx记录如果使用泛解析，那么只有子域名mx生效
+mx记录使用@
 
 ```sh
 nslookup -q=mx domain.com
