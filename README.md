@@ -2,6 +2,12 @@
 
 检查是否有进程占用25端口，比如postfix
 
+netstat -tanp
+
+systemctl stop postfix
+
+systemctl disable postfix
+
 mx记录如果使用泛解析，那么只有子域名mx生效
 
 
